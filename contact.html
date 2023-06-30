@@ -7,37 +7,52 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <h1>Contact</h1>
-    <p>Feel free to reach out and contact me! I'd love to hear from you.</p>
-    <form
-      action="https://formsubmit.co/8c1334f955f21f81b0a2bf6d1a1d526e"
-      method="POST"
-    >
-      <div class="form-question required">
-        <label for="name">name:</label>
-        <input type="text" id="name" name="name" required />
+    <nav class="navbar">
+      <div class="container">
+        <div class="logo">My logo</div>
+        <ul class="nav">
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./cv.html">CV</a></li>
+          <li><a href="./project.html">Projects</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
       </div>
+    </nav>
+    <div class="contact-wrapper">
+      <h1>Contact</h1>
+      <p>Feel free to reach out and contact me! I'd love to hear from you.</p>
+      <form
+        action="https://formsubmit.co/8c1334f955f21f81b0a2bf6d1a1d526e"
+        method="POST"
+      >
+        <div class="form-question required">
+          <label for="name">name:</label>
+          <input type="text" id="name" name="name" required />
+        </div>
 
-      <div class="form-question required">
-        <label for="email">email</label>
-        <input type="Email" id="name" name="email" required />
-      </div>
+        <div class="form-question required">
+          <label for="email">email</label>
+          <input type="Email" id="name" name="email" required />
+        </div>
 
-      <div class="form-question">
-        <label for="phone"> phone:</label>
-        <input type="phone" id="name" name="phone" />
-      </div>
+        <div class="form-question">
+          <label for="phone"> phone:</label>
+          <input type="phone" id="name" name="phone" />
+        </div>
 
-      <div class="form-question required">
-        <label for="message">message:</label>
-        <textarea id="message" name="message" rows="5" required></textarea>
-      </div>
+        <div class="form-question required">
+          <label for="message">message:</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
 
-      <button type="submit" id="submit">Submit</button>
-      <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html">
-      <input type
-      ="hidden" name="_captcha" value="false">
-      
-    </form>
+        <button type="submit" id="submit">Submit</button>
+        <input
+          type="hidden"
+          name="_next"
+          value="https://yourdomain.co/thanks.html"
+        />
+        <input type="hidden" name="_captcha" value="false" />
+      </form>
+    </div>
   </body>
 </html>
