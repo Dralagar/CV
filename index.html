@@ -18,11 +18,18 @@
     />
     <link rel="stylesheet" href="styles.css" />
   </head>
-  <body div id="background">
-    <div class="container-fluid"></div>
+  <body>
+    <div id="background">
       <nav class="navbar navbar-expand-lg bg-info">
         <div class="container-fluid">
-          <a class="navbar-brand"> <img src="https://pbs.twimg.com/profile_images/1616815526654754820/xiJBm_f__400x400.jpg"  width=100 lenght=50  alt=""> </a>
+          <a class="navbar-brand">
+            <img
+              src="https://pbs.twimg.com/profile_banners/1575847529953972224/1668447665/1080x360"
+              width="100"
+              lenght="50"
+              alt=""
+            />
+          </a>
           <button
             class="navbar-toggler"
             type="button"
@@ -43,13 +50,13 @@
                 <a class="nav-link" href="./cv.html">CV</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./project.html">Projects</a>
+              <a class="nav-link" href="./project.html">Projects</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="./contact.html">Contact</a>
               </li>
             </ul>
-            <span class="navbar-text"> </span>
+            <button class="btnLogin-popup">Login</button>
           </div>
         </div>
       </nav>
@@ -59,36 +66,80 @@
           <h1 class="name">Dralagar George</h1>
           <h2 id="work">Web Developer</h2>
           <p id="experience">
-           Experienced in user-customizable web design, 
-           I create modern, interactive websites with responsive layouts and online store integrations. 
-           I focus on aesthetics, delivering visually appealing sites that captivate visitors. 
-           I stay updated on industry advancements to provide future-proof and engaging web experiences. 
-           Passionate about web development, I offer innovative solutions that exceed client expectations and drive business growth.
-            I collaborate closely with clients to tailor websites to their brand identity and goals.
-          <div><button>Download CV</button></div>
+            Experienced in user-customizable web design, I create modern,
+            interactive websites with responsive layouts and online store
+            integrations. I focus on aesthetics, delivering visually appealing
+            sites that captivate visitors. I stay updated on industry
+            advancements to provide future-proof and engaging web experiences.
+            As a developer, I offer innovative solutions that exceed client
+            expectations and deliver business growth. I collaborate closely with
+            clients to tailors websites and online stores to deliver their
+            business brand identity and goals.
+          </p>
+          <div>
+            <a href="path/to/download-cv" class="hovar btn btn-primary" download
+              >Download CV</a
+            >
+          </div>
         </div>
-      <div class="col-12 col-md-6 pt-5">
-        <div id="carouselExample" class="carousel slide">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="https://cdn.midjourney.com/b2121c12-22d6-4952-b1c8-15670cda4044/0_0.png" class="d-block w-100" alt="African youth engaging in sustainable sport in a rural green field while safeguarding climate action">
+        <div class="col-12 col-md-6 pt-5">
+          <div
+            id="carouselExample"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="https://cdn.midjourney.com/b2121c12-22d6-4952-b1c8-15670cda4044/0_0.png"
+                  class="d-block w-100"
+                  alt="African youth engaging in sustainable sport in a rural green field while safeguarding climate action"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="https://cdn.midjourney.com/f988de30-b241-4c59-be89-8aa9a854e5a5/0_0.png"
+                  class="d-block w-100"
+                  alt="African youth engaging in sustainable sport development in a rural green field with climatic action at the background"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="https://cdn.midjourney.com/012e0ec7-4bf2-44cd-abae-4da7f55a2881/0_0.png"
+                  class="d-block w-100"
+                  alt="a star with a faint glitters on a over a large water body at curvature of the horizon"
+                />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExample"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExample"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="carousel-item">
-      <img src="https://cdn.midjourney.com/f988de30-b241-4c59-be89-8aa9a854e5a5/0_0.png" class="d-block w-100" alt="African youth engaging in sustainable sport development in a rural green field with climatic action at the background">
-    </div>
-    <div class="carousel-item">
-      <img src="https://cdn.midjourney.com/012e0ec7-4bf2-44cd-abae-4da7f55a2881/0_0.png" class="d-block w-100" alt="a star with a faint glitters on a over a large water body at curvature of the horizon">
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
