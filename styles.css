@@ -107,7 +107,7 @@ h5 {
 }
 */
 .nav-link:hover {
-  color: white;
+  color: blue;
 }
 body {
   overflow: hidden;
@@ -161,9 +161,6 @@ main {
   margin: 20px;
 }
 
-#background {
-  background-color: black;
-}
 .button {
   color: blue;
 }
@@ -186,6 +183,11 @@ main {
 
 /* display CV****************************************************/
 
+#black {
+  background-color: rgb(177, 180, 126);
+  height: 100vh;
+  overflow-y: scroll;
+}
 @media screen and (max-width: 799px) {
   #info .left {
     text-align: center;
@@ -276,6 +278,9 @@ h3 {
 body {
   margin: 0;
   font-family: Arial, sans-serif;
+  background-color: black;
+  height: 100vh;
+  overflow-y: scroll;
 }
 
 .grid-container {
@@ -368,10 +373,11 @@ body {
 .projects {
   text-align: center;
 }
-*/ body {
+body {
   margin: 0;
   font-family: Arial, sans-serif;
 }
+
 /*
 .container-fluid {
   padding: 20px;
